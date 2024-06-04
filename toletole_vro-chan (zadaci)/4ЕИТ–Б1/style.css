@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(180,217,235,255);
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 640px;
+    width: 640px;
+    border: 1px solid whitesmoke;
+    float: center;
+    margin: auto;
+    padding: 0;
+}
+
+.naslov{
+    color: #393e6f;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.orientation{
+    background-color: rgba(43,84,128,255);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dugme{
+    color: whitesmoke;
+    background-color: rgba(43,84,128,255);
+    margin: 0;
+    height: 50px;
+    padding: 15px;
+    border-color: white;
+    border-style: hidden solid hidden hidden;
+}
+
+.dugme:hover{
+    background-color: rgba(130,183,208,255);
+    color: rgba(43,84,128,255);
+}
+
+.p{
+    color: whitesmoke;
+    padding-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.tekst{
+    height: 110px;
+    overflow-y: scroll;
+    background-color: #393e6f;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
+.velikaslika{
+    height: 480px;
+    float: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 640px;
+    object-fit: cover;
+}
+
+.slicica{
+    width: 60px;
+    height: 40px;
+    border: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.traka{
+    padding: none;
+}
+
+
